@@ -3,7 +3,7 @@ import classes from './NavigationItems.css'
 import NavigationItem from './NavigationItem/NavigationItem';
 
 const navigationItems = (props) => (
-    <ul class={classes.NavigationItems}>
+    <ul className={classes.NavigationItems}>
         <NavigationItem
             link={'/'}
             active
